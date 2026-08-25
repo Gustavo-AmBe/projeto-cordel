@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Sriracha';
+    src: url(fontes/Sriracha-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Passion one';
+    src: url(fontes/PassionOne-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    min-height: 188px;
+    text-align: center;
+    color: white;
+    height: 250px;
+}
+
+header h1{
+    font-size: 70px;
+    font-family: 'passion one', cursive;
+    padding-top: 62px;
+    padding-bottom: 12px;
+}
+
+header h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header strong{
+    font-size: 25px;
+}
+
+.e1{
+    margin: 88px 0px 90px 25px;
+    line-height: 75px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+/* -- Parallax Effect -- */
+
+.e2parallax{
+    background-image: url(imagens/background001.jpg);
+    min-height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.e2parallax p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+    line-height: 52px;
+    min-width: 375px;
+    width: 20%;
+    margin: 0;
+    padding: 10px 19px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+/* -- Parallax Effect -- */
+
+.e3{
+    margin: 88px 0px 88px 25px;
+    line-height: 52px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+.e4{
+    margin: 88px 0px 88px 25px;
+    line-height: 52px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+/* -- Parallax Effect -- */
+
+.e5parallax{
+    background-image: url(imagens/background002.jpg);
+    min-height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.e5parallax p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.418);
+    line-height: 52px;
+    min-width: 375px;
+    width: 20%;
+    margin: 0;
+    padding: 10px 19px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+/* -- Parallax Effect -- */
+
+.e6{
+    margin: 88px 0px 88px 25px;
+    line-height: 52px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+.e7{
+    margin: 88px 0px 88px 25px;
+    line-height: 52px;
+    font-size: 24px;
+    font-family: 'Sriracha', cursive;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+footer p a{
+    padding-left : 5px;
+}
+
